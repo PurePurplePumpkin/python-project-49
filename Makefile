@@ -32,3 +32,7 @@ brain-even:
 
 brain-calc:
 	poetry run brain-even
+
+
+brain-gcd:
+	poetry run brain-even
