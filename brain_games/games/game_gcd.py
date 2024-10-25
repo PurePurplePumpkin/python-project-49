@@ -4,15 +4,14 @@ from brain_games.games.constants import GCD_TASK
 from brain_games.games.all_games import start_game
 
 
-def get_nums_for_gcd():
-    num_one, num_two, factor = randint(1, 20), randint(1, 20), randint(2, 5)
-    return f'{num_one * factor} {num_two * factor}'
-
-
-def check_gcd(nums):
-    num_one, num_two = nums.split()
-    return str(gcd(int(num_one), int(num_two)))
+def get_nums_for_gcd_and_check_result():
+    factor = randint(2, 5)
+    num_one = randint(1, 20) * factor
+    num_two = randint(1, 20) * factor
+    nums_for_gcd = f'{num_one} {num_two}'
+    result_gcd = str(gcd(num_one, num_two))
+    return (nums_for_gcd, result_gcd)
 
 
 def new_game():
-    start_game(GCD_TASK, get_nums_for_gcd, check_gcd)
+    start_game(GCD_TASK, get_nums_for_gcd_and_check_result)

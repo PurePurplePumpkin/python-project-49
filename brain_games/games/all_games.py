@@ -2,7 +2,7 @@ import prompt
 from brain_games.games.constants import NUM_ROUNDS
 
 
-def start_game(game_task, create_question, get_right_answer):
+def start_game(game_task, create_question_and_get_answer):
     name = prompt.string('Welcome to the Brain Games!\n'
                          'May I have your name? ')
 
@@ -10,10 +10,9 @@ def start_game(game_task, create_question, get_right_answer):
           f'{game_task}')
 
     for _ in range(NUM_ROUNDS):
-        question = create_question()
+        question, right_ans = create_question_and_get_answer()
         ans = prompt.string(f'Question: {question}\n'
                             'Your answer: ')
-        right_ans = get_right_answer(question)
         if ans == right_ans:
             print('Correct!')
         else:
