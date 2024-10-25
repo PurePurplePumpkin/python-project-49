@@ -1,7 +1,7 @@
 from random import randint
-from brain_games.games.constants import PROGRESSION_TASK
-from brain_games.games.constants import MAX_LEN_PROGRESSION, MIN_LEN_PROGRESSION
-from brain_games.games.all_games import start_game
+from brain_games.constants import PROGRESSION_TASK
+from brain_games.constants import MAX_LEN_PROGRESSION, MIN_LEN_PROGRESSION
+from brain_games.general_logic import start_game
 
 
 def get_progression_and_skip_num():

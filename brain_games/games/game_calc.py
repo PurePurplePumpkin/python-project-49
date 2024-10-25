@@ -1,6 +1,6 @@
 from random import randint, choice
-from brain_games.games.constants import CALC_TASK, MATH_OPERATORS
-from brain_games.games.all_games import start_game
+from brain_games.constants import CALC_TASK, MATH_OPERATORS
+from brain_games.general_logic import start_game
 
 
 def get_math_expression_and_chek_result():

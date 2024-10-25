@@ -1,7 +1,7 @@
 from math import gcd
 from random import randint
-from brain_games.games.constants import GCD_TASK
-from brain_games.games.all_games import start_game
+from brain_games.constants import GCD_TASK
+from brain_games.general_logic import start_game
 
 
 def get_nums_for_gcd_and_check_result():

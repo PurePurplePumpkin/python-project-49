@@ -1,5 +1,5 @@
 import prompt
-from brain_games.games.constants import NUM_ROUNDS
+from brain_games.constants import NUM_ROUNDS
 
 
 def start_game(game_task, create_question_and_get_answer):
