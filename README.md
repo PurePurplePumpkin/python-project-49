@@ -7,7 +7,7 @@
 "Mind Games" is a set of five console games based on popular mobile apps for brain training. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered completed. Incorrect answers end the game and prompt you to play it again.
 
 ## Installation and demonstration of greetings
-[![asciicast](https://asciinema.org/a/EtSva9UgoyKr1umAffQHMa61G.svg)](https://asciinema.org/a/EtSva9UgoyKr1umAffQHMa61G)
+[![asciicast](https://asciinema.org/a/8Z8RC4UZFY7wuiUlvsZgsy4Cc.svg)](https://asciinema.org/a/8Z8RC4UZFY7wuiUlvsZgsy4Cc)
 
 
 ## Determining an even number
